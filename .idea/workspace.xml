@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac78616-6b0b-4274-b049-91f08fb647d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/detectEngDict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inputex.py" afterDir="false" />
+    <list default="true" id="bac78616-6b0b-4274-b049-91f08fb647d2" name="Default Changelist" comment="0909 dict txt">
+      <change afterPath="$PROJECT_DIR$/dictionary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frank.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frank.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/openfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inputex.py" beforeDir="false" afterPath="$PROJECT_DIR$/inputex.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +26,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="18" />
           <entry key="sh" value="1" />
           <entry key="txt" value="5" />
         </counts>
@@ -37,19 +35,19 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="17" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4923" />
-          <entry key="txt" value="190" />
+          <entry key="py" value="5164" />
+          <entry key="txt" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="190" />
-          <entry key="Python" value="4923" />
+          <entry key="PLAIN_TEXT" value="227" />
+          <entry key="Python" value="5164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -100,15 +98,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/transDecrypt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/transCipher.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -126,24 +115,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inputex.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reversebasic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detectEngDict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="-153">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
               <folding>
-                <marker date="1536508902778" expanded="true" signature="125:130" ph="..." />
-                <marker date="1536508902778" expanded="true" signature="340:345" ph="..." />
-                <marker date="1536508902778" expanded="true" signature="653:658" ph="..." />
+                <marker date="1536511495146" expanded="true" signature="165:170" ph="..." />
+                <marker date="1536511495146" expanded="true" signature="380:385" ph="..." />
+                <marker date="1536511495146" expanded="true" signature="693:698" ph="..." />
               </folding>
             </state>
           </provider>
@@ -186,9 +184,9 @@
         <option value="$PROJECT_DIR$/transCipher.py" />
         <option value="$PROJECT_DIR$/transFileCipher.py" />
         <option value="$PROJECT_DIR$/frank.txt" />
-        <option value="$PROJECT_DIR$/inputex.py" />
         <option value="$PROJECT_DIR$/openfile.py" />
         <option value="$PROJECT_DIR$/detectEngDict.py" />
+        <option value="$PROJECT_DIR$/inputex.py" />
       </list>
     </option>
   </component>
@@ -240,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.openfile">
+  <component name="RunManager" selected="Python.inputex">
     <configuration name="TESTTransCipherPy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,8 +353,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.openfile" />
         <item itemvalue="Python.inputex" />
+        <item itemvalue="Python.openfile" />
         <item itemvalue="Python.transFileCipher" />
         <item itemvalue="Python.reversebasic" />
         <item itemvalue="Python.TESTTransCipherPy" />
@@ -395,19 +393,32 @@
       <option name="project" value="LOCAL" />
       <updated>1536434217907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0909 transcipher dict crying">
+      <created>1536508963690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1536508963690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0909 transcipher dict crying spacja \t\n dict">
+      <created>1536511509102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536511509102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913943" visible="true" weight="0.23489933" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49723756" visible="true" weight="0.23489933" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.23489933" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008606" side_tool="true" visible="true" weight="0.23489933" />
+      <window_info id="Favorites" order="2" sideWeight="0.50276244" side_tool="true" visible="true" weight="0.23489933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14809383" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4692082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +440,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="one" />
     <MESSAGE value="0809 transcipher" />
-    <option name="LAST_COMMIT_MESSAGE" value="0809 transcipher" />
+    <MESSAGE value="0909 transcipher dict crying" />
+    <MESSAGE value="0909 transcipher dict crying spacja \t\n dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="0909 transcipher dict crying spacja \t\n dict" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/basic exercise.sh" />
@@ -458,13 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reversebasic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -505,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inputex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TESTTransCipherPy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -533,13 +532,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/detectEngDict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="57" lean-forward="true" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state relative-caret-position="-153">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding>
-            <marker date="1536508902778" expanded="true" signature="125:130" ph="..." />
-            <marker date="1536508902778" expanded="true" signature="340:345" ph="..." />
-            <marker date="1536508902778" expanded="true" signature="653:658" ph="..." />
+            <marker date="1536511495146" expanded="true" signature="165:170" ph="..." />
+            <marker date="1536511495146" expanded="true" signature="380:385" ph="..." />
+            <marker date="1536511495146" expanded="true" signature="693:698" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reversebasic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
