@@ -1,9 +1,16 @@
 import detectEngDict
 
-#fo=open('frank.txt', 'rt')
 
-#content= fo.read()
-#print(content)
+# z WITH OPEN
+
+with open('frank.txt')as f:
+    print(f.read())
+    f.close()
+
+fo=open('frank.txt', 'rt')
+
+content= fo.read()
+print(content)
 
 #detect english run dic txt
 

@@ -24,7 +24,10 @@ list2='www'.join(list2)
 print(list2)
 
 
-'''mess='ali koty456\
+
+
+
+mess='ali koty456\
                     pieski'
 
 LETTERS_AND_SPACE='qwertyuiopasdfghjklzxcvbnm'
@@ -40,4 +43,4 @@ def removeNonLetters(mess):
 
 we=removeNonLetters(mess)
 
-print(we)'''
+print(we)
