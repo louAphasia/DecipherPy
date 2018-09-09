@@ -1,7 +1,7 @@
 UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower()+'\t\n '
-
+LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower()+' \t\n'
+#   ' spacja \t\n' bo inaczej nie dziala
 def loadDict():
     dicFile=open('dictionary.txt')
 
