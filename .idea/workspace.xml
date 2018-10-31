@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bac78616-6b0b-4274-b049-91f08fb647d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RSAkluczpublModulo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TransHackerEngDIct.py" afterDir="false" />
+    <list default="true" id="bac78616-6b0b-4274-b049-91f08fb647d2" name="Default Changelist" comment=" commit primes new cipher [RSA]30">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/makePublicPrivateKeys.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detectEngDict.py" beforeDir="false" afterPath="$PROJECT_DIR$/detectEngDict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSA basic/CryptoMATH.py" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoMATH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSA basic/PRIMESNum.py" beforeDir="false" afterPath="$PROJECT_DIR$/PRIMESNum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSA basic/makePublicPrivateKeys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ceasarBasic.py" beforeDir="false" afterPath="$PROJECT_DIR$/ceasarBasic.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,19 +20,21 @@
     <session id="-854602752">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="21" />
+          <entry key="py" value="36" />
           <entry key="sh" value="1" />
           <entry key="txt" value="5" />
         </counts>
@@ -38,20 +43,23 @@
         <counts>
           <entry key="Bash" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="18" />
-          <entry key="py" value="6549" />
-          <entry key="txt" value="250" />
+          <entry key="Bash" value="17" />
+          <entry key="Python Console" value="222" />
+          <entry key="dummy" value="55" />
+          <entry key="py" value="9542" />
+          <entry key="txt" value="319" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="268" />
-          <entry key="Python" value="6549" />
+          <entry key="Bash" value="17" />
+          <entry key="PLAIN_TEXT" value="374" />
+          <entry key="Python" value="9764" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -80,10 +88,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/makePublicPrivateKeys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+              <folding>
+                <marker date="1541016768709" expanded="true" signature="870:1500" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TransHackerEngDIct.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="715">
+            <state relative-caret-position="782">
               <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <marker date="1537825287520" expanded="true" signature="57:62" ph="..." />
@@ -93,11 +113,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RSAkluczpublModulo.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RSA basic/RSAkluczpublModulo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PRIMESNum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1541016142383" expanded="true" signature="43:48" ph="..." />
+                <marker date="1541016142383" expanded="true" signature="214:219" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CryptoMATH.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <marker date="1541015157467" expanded="true" signature="17:22" ph="..." />
+                <marker date="1541015157467" expanded="true" signature="90:95" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TESTTransCipherPy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyperclip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="610" selection-start-line="610" selection-end-line="610" />
             </state>
           </provider>
         </entry>
@@ -138,6 +202,15 @@
         <option value="$PROJECT_DIR$/detectEngDict.py" />
         <option value="$PROJECT_DIR$/modulaDoe.py" />
         <option value="$PROJECT_DIR$/RSAkluczpublModulo.py" />
+        <option value="$PROJECT_DIR$/RSA basic/VigeCy.py" />
+        <option value="$PROJECT_DIR$/RSA basic/testPrimes.py" />
+        <option value="$PROJECT_DIR$/RSA basic/__init__.py" />
+        <option value="$PROJECT_DIR$/RSA basic/mcryptomath.py" />
+        <option value="$PROJECT_DIR$/RSA basic/PRIMESNum.py" />
+        <option value="$PROJECT_DIR$/RSA basic/CryptoMATH.py" />
+        <option value="$PROJECT_DIR$/PRIMESNum.py" />
+        <option value="$PROJECT_DIR$/RSA basic/makePublicPrivateKeys.py" />
+        <option value="$PROJECT_DIR$/makePublicPrivateKeys.py" />
       </list>
     </option>
   </component>
@@ -165,6 +238,11 @@
             </path>
             <path>
               <item name="_crack py exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_crack py exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="RSA basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="_crack py exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -175,7 +253,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Images" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise" />
+      <recent name="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\RSA basic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,8 +273,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TransHackerEngDIct">
-    <configuration name="TransHackerEngDIct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.makePublicPrivateKeys (2)">
+    <configuration name="PRIMESNum" type="PythonConfigurationType" factoryName="Python">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +282,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RSA basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TransHackerEngDIct.py" />
+      <option name="SCRIPT_NAME" value="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\PRIMESNum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="inputex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RSAkluczpublModulo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +303,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RSA basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inputex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RSA basic/RSAkluczpublModulo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +316,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RSAkluczpublModulo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,7 +328,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/openfile.py" />
+      <option name="SCRIPT_NAME" value="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\RSA basic\RSAkluczpublModulo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reversebasic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="makePublicPrivateKeys (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,11 +345,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RSA basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reversebasic.py" />
+      <option name="SCRIPT_NAME" value="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\makePublicPrivateKeys.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,7 +358,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transFileCipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="makePublicPrivateKeys (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="_crack py exercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,7 +370,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/transFileCipher.py" />
+      <option name="SCRIPT_NAME" value="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\makePublicPrivateKeys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="makePublicPrivateKeys" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="_crack py exercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RSA basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\_COMPUTER Science\_CRYPTO Haker BLOCKCHAIN\kryptografia Encryption\_crack py exercise\makePublicPrivateKeys.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,19 +401,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.transFileCipher" />
-      <item itemvalue="Python.reversebasic" />
-      <item itemvalue="Python.openfile" />
-      <item itemvalue="Python.inputex" />
-      <item itemvalue="Python.TransHackerEngDIct" />
+      <item itemvalue="Python.PRIMESNum" />
+      <item itemvalue="Python.RSAkluczpublModulo" />
+      <item itemvalue="Python.makePublicPrivateKeys" />
+      <item itemvalue="Python.makePublicPrivateKeys (1)" />
+      <item itemvalue="Python.RSAkluczpublModulo (1)" />
+      <item itemvalue="Python.makePublicPrivateKeys (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TransHackerEngDIct" />
-        <item itemvalue="Python.inputex" />
-        <item itemvalue="Python.openfile" />
-        <item itemvalue="Python.transFileCipher" />
-        <item itemvalue="Python.reversebasic" />
+        <item itemvalue="Python.makePublicPrivateKeys (2)" />
+        <item itemvalue="Python.RSAkluczpublModulo (1)" />
+        <item itemvalue="Python.makePublicPrivateKeys (1)" />
+        <item itemvalue="Python.makePublicPrivateKeys" />
+        <item itemvalue="Python.RSAkluczpublModulo" />
       </list>
     </recent_temporary>
   </component>
@@ -372,24 +478,52 @@
       <option name="project" value="LOCAL" />
       <updated>1536520175570</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" rsa new modulo check">
+      <created>1540128677598</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540128677598</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" commit bewest correct">
+      <created>1540129124789</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1540129124789</updated>
+    </task>
+    <task id="LOCAL-00010" summary=" commit primes new cipher [RSA]">
+      <created>1540759863534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540759863534</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" commit primes new cipher [RSA]30">
+      <created>1540926225002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540926225002</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.22080536" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.21275167" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.23489933" />
       <window_info id="Favorites" order="2" sideWeight="0.5010941" side_tool="true" weight="0.23489933" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4692082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4692082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32844576" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.11290322" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32991204" />
@@ -410,24 +544,14 @@
     <MESSAGE value="0909 transcipher dict crying spacja \t\n dict" />
     <MESSAGE value="0909 dict txt ++" />
     <MESSAGE value="0909 dict txt ++0909 END WITH  OPEN" />
-    <option name="LAST_COMMIT_MESSAGE" value="0909 dict txt ++0909 END WITH  OPEN" />
+    <MESSAGE value=" rsa new modulo check" />
+    <MESSAGE value=" commit bewest correct" />
+    <MESSAGE value=" commit primes new cipher [RSA]" />
+    <MESSAGE value=" commit primes new cipher [RSA]30" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commit primes new cipher [RSA]30" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/basic exercise.sh" />
-    <entry file="file://$PROJECT_DIR$/ceaserHackChildish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyperclip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10217">
-          <caret line="610" lean-forward="true" selection-start-line="610" selection-end-line="610" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ceasarBasic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -439,13 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/transDecrypt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -464,13 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TESTTransCipherPy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -507,14 +617,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RSA basic/testPrimes.py" />
+    <entry file="file://$PROJECT_DIR$/transDecrypt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceaserHackChildish.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TESTTransCipherPy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TransHackerEngDIct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
+        <state relative-caret-position="782">
           <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <marker date="1537825287520" expanded="true" signature="57:62" ph="..." />
             <marker date="1537825287520" expanded="true" signature="757:762" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA basic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CryptoMATH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1541015157467" expanded="true" signature="17:22" ph="..." />
+            <marker date="1541015157467" expanded="true" signature="90:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-991083293/sys.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSA basic/RSAkluczpublModulo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -530,10 +693,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RSAkluczpublModulo.py">
+    <entry file="file://$PROJECT_DIR$/pyperclip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="660">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PRIMESNum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1541016142383" expanded="true" signature="43:48" ph="..." />
+            <marker date="1541016142383" expanded="true" signature="214:219" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/makePublicPrivateKeys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <marker date="1541016768709" expanded="true" signature="870:1500" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

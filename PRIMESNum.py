@@ -10,7 +10,7 @@ def isPrimeTrial(num):
     return True
 
 def primeSieve(sieveSize):
-    sieve=[True]+sieveSize
+    sieve=[True]*sieveSize
     sieve[0]=False
     sieve[1]=False
 
@@ -18,7 +18,7 @@ def primeSieve(sieveSize):
         pointer=i*2
         while pointer<sieveSize:
             sieve[pointer]=False
-            pointer+=1
+            pointer+=i
 
     primes=[]
     for i in range(sieveSize):
@@ -51,13 +51,12 @@ def rabinMiller(num):
                     v=(v**2)%num
     return True
 
-LOW_PRIMES=primeSieve(100)
 
 def isPrime(num):
     if(num <2):
         return False
 
-    for prime in LOW_PRIMES:
+    for prime in primeSieve(100):
         if(num%prime==0):
             return False
 
