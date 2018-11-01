@@ -51,6 +51,12 @@ def rabinMiller(num):
                     v=(v**2)%num
     return True
 
+def isPrimeFactor(num):
+
+    for i in range(2,int(math.sqrt(num))+1):
+        if num%i==0:
+            return (i,num/i)
+    return None
 
 def isPrime(num):
     if(num <2):
