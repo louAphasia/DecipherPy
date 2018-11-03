@@ -80,6 +80,7 @@ def encryptAndWriteToFile(messageFilename, keyFilename,message,blockSize=None):
     keySize,n,e=readFile(keyFilename)
     if blockSize==None:
         blockSize=int(math.log(2**keySize,len(SYMBOLS)))
+        print('blocksize',blockSize)
 
     if not(math.log(2**keySize,len(SYMBOLS))>=blockSize):
         sys.exit('ERROR: BlockSize is too large specencrpyfy correct key file ')

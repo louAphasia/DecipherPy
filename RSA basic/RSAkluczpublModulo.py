@@ -9,7 +9,8 @@ kphi=d*e-1
 t=kphi
 
 while t%2==0:
-    t=divmod(t,2)[0]
+    t=t//2
+
 
 a=2
 while a<100:

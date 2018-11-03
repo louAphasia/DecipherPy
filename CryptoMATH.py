@@ -18,3 +18,5 @@ def findModInverse(a,m):
         e1,e2,e3,u1,u2,u3 = (u1-q*e1),(u2-q*e2),(u3-q*e3),e1,e2,e3
     return u1%m
 
+
+print(gcd(26,90))
