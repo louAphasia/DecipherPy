@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/_crack py exercise.iml" filepath="$PROJECT_DIR$/.idea/_crack py exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DecipherPy.iml" filepath="$PROJECT_DIR$/.idea/DecipherPy.iml" />
     </modules>
   </component>
 </project>
