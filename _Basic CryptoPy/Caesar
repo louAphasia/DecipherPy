@@ -3,7 +3,7 @@ str_in=input("Enter message Uppcase letters ")
 
 #SHIFT
 
-shift=int(input("podaj shift value liczbe "))
+shift=int(input("podaj shift value liczbe "))  #  13 rot13
 n=len(str_in)
 str_out=""
 

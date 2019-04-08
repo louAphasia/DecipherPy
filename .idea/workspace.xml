@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac78616-6b0b-4274-b049-91f08fb647d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DecipherPy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_Basic CryptoPy/Caesar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_Basic CryptoPy/xor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Basic CryptoPy/Caesar" beforeDir="false" afterPath="$PROJECT_DIR$/_Basic CryptoPy/Caesar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DecipherPy$Caesar.coverage" NAME="Caesar Coverage Results" MODIFIED="1554585685110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_Basic CryptoPy" />
+    <SUITE FILE_PATH="coverage/DecipherPy$xor.coverage" NAME="xor Coverage Results" MODIFIED="1554754032956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_Basic CryptoPy" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="_crack py exercise" />
@@ -52,11 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_Basic CryptoPy/Caesar">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="85">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_Basic CryptoPy/xor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -121,6 +126,7 @@
         <option value="$PROJECT_DIR$/pow3argModuloPotegi.py" />
         <option value="$PROJECT_DIR$/_Basic CryptoPy/Ceaser.py" />
         <option value="$PROJECT_DIR$/_Basic CryptoPy/Caesar" />
+        <option value="$PROJECT_DIR$/_Basic CryptoPy/xor.py" />
       </list>
     </option>
   </component>
@@ -159,7 +165,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/../Python/PYTHON EX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExCheckPy" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
@@ -180,29 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Caesar">
-    <configuration name="CIPHERBlockRSA" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="_crack py exercise" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CIPHERBlockRSA.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.xor">
     <configuration name="Caesar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DecipherPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,21 +297,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DecipherPy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_Basic CryptoPy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_Basic CryptoPy/xor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.PRIMESNum" />
       <item itemvalue="Python.RSAkluczpublModulo (1)" />
-      <item itemvalue="Python.CIPHERBlockRSA" />
       <item itemvalue="Python.pow3argModuloPotegi" />
       <item itemvalue="Python.CryptoMATH" />
       <item itemvalue="Python.Caesar" />
+      <item itemvalue="Python.xor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xor" />
         <item itemvalue="Python.Caesar" />
         <item itemvalue="Python.pow3argModuloPotegi" />
         <item itemvalue="Python.CryptoMATH" />
         <item itemvalue="Python.RSAkluczpublModulo (1)" />
-        <item itemvalue="Python.CIPHERBlockRSA" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535711305873</updated>
-      <workItem from="1554580588427" duration="1821000" />
+      <workItem from="1554580588427" duration="5919000" />
     </task>
     <task id="LOCAL-00001" summary="one">
       <created>1536165301552</created>
@@ -441,15 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541110187549</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[NEW BOOK] CAESAR">
+      <created>1554585754072</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554585754072</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1821000" />
+    <option name="totallyTimeSpent" value="5919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.2181208" />
       <window_info id="Structure" order="1" sideWeight="0.50209206" side_tool="true" weight="0.23489933" />
@@ -554,7 +566,8 @@
     <MESSAGE value="[RSA]31 dziala module makePublicPrivateKeys module PrimeNum i CryptoMATH" />
     <MESSAGE value="[RSA]1.11 dziala CIPHERBlockRSA" />
     <MESSAGE value="[RSA]1.11 dziala CIPHERBlockRSA txt pliki" />
-    <option name="LAST_COMMIT_MESSAGE" value="[RSA]1.11 dziala CIPHERBlockRSA txt pliki" />
+    <MESSAGE value="[NEW BOOK] CAESAR" />
+    <option name="LAST_COMMIT_MESSAGE" value="[NEW BOOK] CAESAR" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/basic exercise.sh" />
@@ -756,8 +769,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_Basic CryptoPy/Caesar">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="85">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_Basic CryptoPy/xor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
