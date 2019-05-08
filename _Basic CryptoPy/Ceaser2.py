@@ -1,18 +1,25 @@
 # need 2 helper mappings, from letters to ints and the inverse
-L2I = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",range(26)))
-I2L = dict(zip(range(26),"ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+L2I = dict(zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ", range(26)))
+I2L = dict(zip(range(26), "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
 
-key ='pies'
+key = 'pies'
 plaintext = "DEFEND THE EAST WALL OF THE CASTLE"
 
-def shift(key):
-    klist=[]
-    for x in range(len(key)):
-        klist.append(ord(key[x]))
+message = "ljust a simple test!"
+key = 3
+coded_message = ""
+for ch in message:
+    code_val = ord(ch) + key
+    if ch.isalpha():
+        if code_val > ord('z'):
+            code_val -= ord('z') - ord('a')
+        coded_message = coded_message + chr(code_val)
+    else:
+        coded_message = coded_message + ch
+print(message)
+print(coded_message)
 
-    print(klist)
 
-shift(key)
 '''
 # encipher
 ciphertext = ""
