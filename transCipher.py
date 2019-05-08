@@ -2,7 +2,7 @@ import pyperclip
 
 
 def main():
-    mess = 'nadi'
+    mess = 'Lorem'
     key = 3
 
     citext= encryptMess(key, mess)
